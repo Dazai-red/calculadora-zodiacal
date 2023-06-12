@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    background-repeat: repeat;
+}
+
+.container{
+    width: 90%;
+    max-width: 600px;
+    min-height: 300px;
+    background-color: #fff;
+    margin: auto;
+    font-family: Tahoma, sans-serif;
+    padding: 1em;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.container__title{
+    margin: 0 14px 24px;
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.container__paragraph{
+    margin: 0 14px 24px;
+    font-style: italic;
+
+}
+
+.form{
+    width: 96%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05)
+}
+
+.form__label{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+
+.form__field--range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__range{
+    width: 100%;
+}
+
+.form__day{
+    font-weight: bold;
+    font-size: 48px;
+    display: inline-block;
+}
+
+.form__month{
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 110px;
+    height: 25px;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
+
+.form__date{
+    margin-left: 1px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn{
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    border-radius: 4px;  
+}
+
+.btn--primary{
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(104 113 197);
+    color: #fff;
+    margin: 15px auto 0;
+    background-color: rgb(104 113 197);
+    color: #fff;
+    display: block;
+}
+
+.btn--primary:hover{
+    background-color: #ebebeb;
+    border-color: rgb(104 113 197);
+    color: #000;
+}
+
+.btn--info{
+    display: inline-block;
+    border-color: rgb(129, 140, 248);
+    background-color: rgb(129, 140, 248);
+    margin: 5px;
+    color: #fff;
+
+}
+
+.btn--info:hover{
+    background-color: #ebebeb;
+    border-color: rgb(129, 140, 248);
+    color: #000;
+}
+
+.ouput h2, 
+.ouput p{
+    text-align: center;
+}
+
+.ouput h2:nth-child(2){
+    font-size: 2em;
+}
+
+.ouput .img-container{
+    width: 229px;
+    height: 229px;
+    margin: 20px auto 0px;
+}
+
+.ouput .img-container img {
+    max-width: 100%;
+    width: 400px;
+    border-radius: 100%;  
+}
+
+.ouput .ideal-pair-container{
+    border-radius: 4px;
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(129, 140, 248);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px inset;
+}
+
