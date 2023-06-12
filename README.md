@@ -4,7 +4,7 @@
 Aplicación que contiene un formulario que pide día y mes de nacimiento y genera 
 información del signo zodiacal correspondiente importada desde un archivo json. 
 
-La finalidad del proyecto es prácticar a modificar el DOM mediante eventos haciendo uso de fragmentos y las diferentes métodos y propiedades del DOM.
+La finalidad del proyecto es practicar a modificar el DOM mediante eventos haciendo uso de fragmentos y las diferentes métodos y propiedades del DOM.
 
 Lenguajes usados: HTML, CSS y JavaScript
 
